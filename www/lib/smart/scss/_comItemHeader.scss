@@ -1,0 +1,26 @@
+.itemHeader {
+	height:160px;
+	background-color:$color-secondary;
+	text-align: center;
+	padding:20px;
+
+	.appIcon {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h3 {
+		color:$color-white;
+		font-size:16px;
+	}
+	h5 {
+		color:$color-darkGray;
+		font-size:14px;
+	}
+
+	@media (min-width: 640px) {		
+		height:200px;  
+		padding:30px;
+				}
+
+}

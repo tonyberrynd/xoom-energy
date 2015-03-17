@@ -1,0 +1,56 @@
+.modal-actions {
+
+	background-color: rgba(37, 53, 79, 0.8);  //RGBA of $color-secondary
+
+
+	.bar {
+	background-color:rgba(37, 53, 79, 1); //RGBA of $color-secondary
+	opacity: 1;
+	border-style: none;
+	background-image: none;
+
+		h1 {
+			color:$color-white;
+		}	
+	
+	}
+
+	.content {
+		background-color:$color-secondary;
+		opacity:.75;
+		padding-top:10px;
+
+		@media (min-width: 768px) {		
+		padding-top:30px;  
+		}
+
+		.button-block {
+			background-color: transparent;
+			border-style: none;
+			margin-bottom:30px;
+		}
+
+
+		.button-action {
+			display: block;
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			background-color: $color-primary;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+		.action-icon {
+			color:#fff;
+			font-size:30px;
+			line-height: 70px;
+		}
+
+
+		h5 {
+			color:#fff;
+			}
+	}
+}

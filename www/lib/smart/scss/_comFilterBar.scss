@@ -1,0 +1,18 @@
+.filterBar {
+	
+	a {
+		font-size:14px;
+		background-color:$color-white;
+		border-color:$color-darkGray;
+		color:$color-type--main;
+		margin-bottom:2px;
+	}
+
+	a.activated {
+		background-color:$color-midGray;
+	}
+	.icon {
+		font-size:14px;
+		color:$color-type--secondary;
+	}
+}

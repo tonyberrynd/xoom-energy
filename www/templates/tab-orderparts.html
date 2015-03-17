@@ -1,0 +1,75 @@
+<ion-view view-title="Order Parts" hide-nav-bar="true">
+  <ion-content>
+    <img src="img/header.png">
+
+    <!-- Order Parts Form -->
+    <div><h4>Order Parts</h4></div>
+    <div class="row">
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.Email" placeholder="Email" ng-blur="getProductsByEmail()">
+      </label>
+    </div>
+    <div class="row">  
+      <label class="item item-input item-select col col-66">
+        <div class="input-label">
+        Product
+        </div>
+        <select ng-model="selectedProduct" ng-options="product as (product.SerialNumber + '-' + product.ProductName) for product in products">
+        </select>
+      </label>
+    </div>
+
+    <div><h4>Contact Info</h4></div>
+    <div class="row">
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.FirstName" placeholder="First Name">
+      </label>
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.LastName" placeholder="Last Name">
+      </label>
+    </div>
+    <div class="row"> 
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.AccountName" placeholder="Company">
+      </label>
+      
+    </div>
+    <div class="row"> 
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.PO" placeholder="PO#">
+      </label>
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.Attention" placeholder="Attention">
+      </label>
+    </div>
+    
+    <div><h4>Shipping Info</h4></div>
+    <div class="row">
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.address.Address1" placeholder="Address1">
+      </label>
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.address.Address2" placeholder="Address2">
+      </label>
+    </div>
+    <div class="row"> 
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.address.PostalCode" placeholder="Zip" ng-blur="getCityZip()">
+      </label>
+      <label class="item item-input col col-33">
+        <input type="text" ng-model="partsOrder.address.City" placeholder="City">
+        <input type="text" ng-model="partsOrder.address.State" placeholder="State">
+      </label>
+    </div> 
+
+    <div class="row">
+      
+  </div>
+
+  
+
+    <br><button class="button button-positive" ng-click="createLead()">
+      Lookup Parts
+    </button>
+  </ion-content>
+</ion-view>

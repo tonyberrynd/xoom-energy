@@ -1,0 +1,25 @@
+.searchBar {
+	.item {
+		background-color: $color-midGray;
+	}
+	.item-input-inset {
+		padding:12px;
+
+		@media (min-width: 640px) {		
+		padding:18px;
+		}
+	}
+	.item-input-wrapper {
+		background-color: $color-white;
+	}
+
+	.placeholder{
+		color:$color-type--secondary;
+	}
+
+	.placeholder-icon {
+		color:$color-type--secondary;
+		padding-right: 2px;
+		padding-top: 1px;
+	}
+}

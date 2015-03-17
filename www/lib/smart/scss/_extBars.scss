@@ -1,0 +1,115 @@
+
+.bar {
+
+  &.bar-primary {
+    @include bar-style($bar-primary-bg, $bar-primary-border, $bar-primary-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-primary-border, $bar-primary-border 50%, transparent 50%);
+    }
+  }
+  &.bar-secondary {
+    @include bar-style($bar-secondary-bg, $bar-secondary-border, $bar-secondary-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-secondary-border, $bar-secondary-border 50%, transparent 50%);
+    }
+  }
+  &.bar-mint {
+    @include bar-style($bar-mint-bg, $bar-mint-border, $bar-mint-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-mint-border, $bar-mint-border 50%, transparent 50%);
+    }
+  }
+  &.bar-ocean {
+    @include bar-style($bar-ocean-bg, $bar-ocean-border, $bar-ocean-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-ocean-border, $bar-ocean-border 50%, transparent 50%);
+    }
+  }
+  &.bar-grape {
+    @include bar-style($bar-grape-bg, $bar-grape-border, $bar-grape-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-grape-border, $bar-grape-border 50%, transparent 50%);
+    }
+  }
+  &.bar-rose {
+    @include bar-style($bar-rose-bg, $bar-rose-border, $bar-rose-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-rose-border, $bar-mint-border 50%, transparent 50%);
+    }
+  }
+  &.bar-chile {
+    @include bar-style($bar-chile-bg, $bar-chile-border, $bar-chile-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-chile-border, $bar-chile-border 50%, transparent 50%);
+    }
+  }
+  &.bar-citrus {
+    @include bar-style($bar-citrus-bg, $bar-citrus-border, $bar-citrus-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-citrus-border, $bar-citrus-border 50%, transparent 50%);
+    }
+  }
+  &.bar-sunlight {
+    @include bar-style($bar-sunlight-bg, $bar-sunlight-border, $bar-sunlight-text);
+    &.bar-footer{
+      background-image: linear-gradient(180deg, $bar-sunlight-border, $bar-sunlight-border 50%, transparent 50%);
+    }
+  }
+
+  // Default styles for buttons inside of styled bars
+.bar-primary {
+  .button {
+    @include button-style($bar-primary-bg, $bar-primary-border, $bar-primary-active-bg, $bar-primary-active-border, $bar-primary-text);
+    @include button-clear($bar-primary-text, $bar-title-font-size);
+  }
+}
+.bar-secondary {
+  .button {
+    @include button-style($bar-secondary-bg, $bar-secondary-border, $bar-secondary-active-bg, $bar-secondary-active-border, $bar-secondary-text);
+    @include button-clear($bar-secondary-text, $bar-title-font-size);
+  }
+}
+.bar-mint {
+  .button {
+    @include button-style($bar-mint-bg, $bar-mint-border, $bar-mint-active-bg, $bar-mint-active-border, $bar-mint-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-ocean {
+  .button {
+    @include button-style($bar-ocean-bg, $bar-ocean-border, $bar-ocean-active-bg, $bar-ocean-active-border, $bar-ocean-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-grape {
+  .button {
+    @include button-style($bar-grape-bg, $bar-grape-border, $bar-grape-active-bg, $bar-grape-active-border, $bar-grape-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-rose {
+  .button {
+    @include button-style($bar-rose-bg, $bar-rose-border, $bar-rose-active-bg, $bar-rose-active-border, $bar-rose-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-chile {
+  .button {
+    @include button-style($bar-chile-bg, $bar-chile-border, $bar-chile-active-bg, $bar-chile-active-border, $bar-chile-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-citrus {
+  .button {
+    @include button-style($bar-citrus-bg, $bar-citrus-border, $bar-citrus-active-bg, $bar-citrus-active-border, $bar-citrus-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+.bar-sunlight {
+  .button {
+    @include button-style($bar-sunlight-bg, $bar-sunlight-border, $bar-sunlight-active-bg, $bar-sunlight-active-border, $bar-sunlight-text);
+    @include button-clear(#fff, $bar-title-font-size);
+  }
+}
+
+}

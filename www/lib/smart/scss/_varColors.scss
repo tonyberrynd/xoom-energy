@@ -1,0 +1,29 @@
+// Base-Colors
+// -------------------------------
+
+$color-primary:                         #8CCA2D !default;
+$color-primary--light:					lighten($color-primary, 15%) !default;
+$color-primary--dark:					darken($color-primary, 15%) !default;
+
+$color-secondary:                       #25354F !default;
+$color-secondary--light:				lighten($color-secondary, 15%) !default;
+$color-secondary--dark:					darken($color-secondary, 15%) !default;
+
+$color-mint:                        	#26C079 !default;
+$color-ocean:                           #38A4D2 !default;
+$color-grape:                           #9679D3 !default;
+$color-rose:                            #C96088 !default;
+$color-chile:                           #E56B57 !default;
+$color-citrus:                          #F49855 !default;
+$color-sunlight:                        #F9C14A !default;
+
+$color-darkGray:						#D8DBE0 !default;
+$color-midGray:							#E7EAEE !default;
+$color-lightGray:						#F3F5F7 !default;
+$color-white:							#FFFFFF !default;
+
+// Type-Colors
+// -------------------------------
+
+$color-type--main:						#383D48 !default;
+$color-type--secondary:					#9DA2AC !default;

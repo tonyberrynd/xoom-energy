@@ -1,0 +1,62 @@
+.action-button-left {
+	position:absolute;
+	top:132px;
+	left:10%;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: $color-primary;
+	-webkit-box-shadow: 5px 2px 2px 0px rgba(37, 53, 79, .75);
+	-moz-box-shadow:    5px 2px 2px 0px rgba(37, 53, 79, .75);
+	box-shadow:         5px 2px 2px 0px rgba(37, 53, 79, .75);
+	z-index: 5;
+	@media (min-width: 640px) {		
+	top:172px;
+	}
+
+	:active {
+		position:relative;
+		top:2px;
+		}
+
+	.icon {
+		font-size: 26px;
+		color: #fff;
+		line-height: 52px;
+		text-align: center;
+		display: inherit;
+	}
+}
+
+.action-button-right {
+	position:absolute;
+	top:132px;
+	right:10%;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	background-color: $color-primary;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(37, 53, 79, .75);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(37, 53, 79, .75);
+	box-shadow:         2px 2px 5px 0px rgba(37, 53, 79, .75);
+	z-index: 5;
+	@media (min-width: 640px) {		
+	top:172px;
+	}
+
+	:active {
+		position:relative;
+		top:2px;
+		}
+
+	.icon {
+		font-size: 26px;
+		color: #fff;
+		line-height: 52px;
+		text-align: center;
+		display: inherit;
+	}
+
+}
+
+

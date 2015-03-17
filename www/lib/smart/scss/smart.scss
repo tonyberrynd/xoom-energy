@@ -1,0 +1,52 @@
+// Main Smartapps4 Style 
+
+//Fonts First
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:400,300);
+
+//Smartapps4 Specific Variables
+//-----------------------
+
+@import 'varColors';
+@import 'varType';
+
+//Override some Ionic Variables
+//-----------------------
+
+@import 'varOverRide';
+
+//Extensions
+//-----------------------
+
+@import 'extVars';
+@import 'extButton';
+@import 'extBars';
+@import 'extTabs';
+@import 'extItems';
+@import 'extToggle';
+@import 'extCheckbox';
+@import 'extRange';
+@import 'extBadge';
+
+//Smartapps4 Mixins - (Used for Components)
+//-----------------------
+@import 'mixins';
+
+//Smartapps4 Components
+//-----------------------
+
+@import 'comActionModal';
+@import 'comAppIcon';
+@import 'comListHeader';
+@import 'comItemHeader';
+@import 'comLists';
+@import 'comPage';
+@import 'comActions';
+@import 'comSearchBar';
+@import 'comSliderPager';
+@import 'comFilterBar';
+
+//App Config
+//-----------------------
+@import 'appConfig';

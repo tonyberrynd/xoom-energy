@@ -1,0 +1,46 @@
+.has-subheader {
+	top:104px;
+
+	@media (min-width: 640px) {		
+	top:125px;
+				}
+}
+
+.bar-subheader {
+	padding-left:10px;
+	padding-top:0px;
+	height:60px;
+	border:none;
+
+	@media (min-width: 640px) {		
+		height:80px;  
+		padding:10px;
+		}
+}
+
+.listHeader .appIcon {
+	float:left;
+}
+
+.listHeader .caption {
+	display:block;
+	float:left;
+	margin-top:14px;
+
+	p {
+		color:$color-type--secondary;
+	}
+
+	h5 {font-family: 'lato', sans-serif;}
+}
+
+.listHeader .newItem {
+	margin:12px;
+	display:block;
+	float:right;
+}
+
+.listHeader .button {
+	font-size:14px;
+}
+

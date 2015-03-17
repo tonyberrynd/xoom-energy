@@ -1,0 +1,40 @@
+.page-slider {
+
+	.slider-pager {
+	top: 10px;
+	font-size:12px;
+	}
+
+	.slider-slides {
+	margin-top:30px;
+	min-height:500px;
+	}
+
+	.slider-pager .slider-pager-page{
+		color:$color-secondary;
+	}
+	.slider-pager .slider-pager-page.active {
+		color:$color-secondary;
+	}
+
+}
+
+.action-slider {
+
+	.slider-pager {
+	font-size:12px;
+
+	@media (min-width: 768px) {		
+	bottom:0px;  
+		}
+	}
+
+
+	.slider-pager .slider-pager-page{
+		color:$color-white;
+	}
+	.slider-pager .slider-pager-page.active {
+		color:$color-white;
+	}
+
+}

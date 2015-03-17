@@ -1,0 +1,59 @@
+//Extended Variables
+.button {
+
+  border-radius:6px;
+
+  &.button-primary {
+    @include button-style($button-primary-bg, $button-primary-border, $button-primary-active-bg, $button-primary-active-border, $button-primary-text);
+    @include button-clear($button-primary-border);
+    @include button-outline($button-primary-border);
+  }
+
+  &.button-secondary {
+    @include button-style($button-secondary-bg, $button-secondary-border, $button-secondary-active-bg, $button-secondary-active-border, $button-secondary-text);
+    @include button-clear($button-secondary-border);
+    @include button-outline($button-secondary-border);
+  }
+
+  &.button-mint {
+    @include button-style($button-mint-bg, $button-mint-border, $button-mint-active-bg, $button-mint-active-border, $button-mint-text);
+    @include button-clear($button-mint-bg);
+    @include button-outline($button-mint-bg);
+  }
+
+  &.button-ocean {
+    @include button-style($button-ocean-bg, $button-ocean-border, $button-ocean-active-bg, $button-ocean-active-border, $button-ocean-text);
+    @include button-clear($button-ocean-bg);
+    @include button-outline($button-ocean-bg);
+  }
+
+  &.button-grape {
+    @include button-style($button-grape-bg, $button-grape-border, $button-grape-active-bg, $button-grape-active-border, $button-grape-text);
+    @include button-clear($button-grape-bg);
+    @include button-outline($button-grape-bg);
+  }
+
+  &.button-rose {
+    @include button-style($button-rose-bg, $button-rose-border, $button-rose-active-bg, $button-rose-active-border, $button-rose-text);
+    @include button-clear($button-rose-bg);
+    @include button-outline($button-rose-bg);
+  }
+
+  &.button-chile {
+    @include button-style($button-chile-bg, $button-chile-border, $button-chile-active-bg, $button-chile-active-border, $button-chile-text);
+    @include button-clear($button-chile-bg);
+    @include button-outline($button-chile-bg);
+  }
+
+  &.button-citrus {
+    @include button-style($button-citrus-bg, $button-citrus-border, $button-citrus-active-bg, $button-citrus-active-border, $button-citrus-text);
+    @include button-clear($button-citrus-bg);
+    @include button-outline($button-citrus-bg);
+  }
+
+  &.button-sunlight {
+    @include button-style($button-sunlight-bg, $button-sunlight-border, $button-sunlight-active-bg, $button-sunlight-active-border, $button-sunlight-text);
+    @include button-clear($button-sunlight-bg);
+    @include button-outline($button-sunlight-bg);
+  }
+}

@@ -1,0 +1,94 @@
+body {
+	color:$color-lightGray;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+	font-weight:600;
+	color: $color-type--main;
+}
+
+.h1,.h2,.h3.h4.h5.h6 {
+	font-family: 'Oxygen', sans-serif;
+	font-weight:400;
+	color: $color-type--secondary;
+}
+
+  h2 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+  }
+  h3 {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+  }
+  h4 {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+  }
+  h5, h6 {
+    margin: 0 0 4px 0;
+    font-size: 12px;
+  }
+  
+  .h2 {
+    margin: 0 0 6px 0;
+    font-size: 16px;
+  }
+  .h3 {
+    margin: 0 0 6px 0;
+    font-size: 14px;
+  }
+  .h4 {
+    margin: 0 0 6px 0;
+    font-size: 13px;
+  }
+  .h5, .h6 {
+    margin: 0 0 3px 0;
+    font-size: 12px;
+  }
+
+  p {
+  	font-family: 'oxygen', sans-serif;
+    color: $color-type--secondary;
+    font-size: 14px;
+    font-weight:400;
+  }
+
+h1.title {
+	text-transform: uppercase;
+}
+
+
+
+.pane, .view {
+	background-color: $color-lightGray;
+}
+
+.bar {
+	background-image: none;
+}
+
+.bar .icon {
+	color:$color-white;
+}
+
+.bar.bar-primary {
+	background-image: none;
+}
+
+.loading-container .loading {
+padding: 20px;
+border-radius: 5px;
+background-color: transparent;
+color: $color-darkGray;
+text-align: center;
+text-overflow: ellipsis;
+font-size: 32px;
+}
+
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+	background: $color-lightGray;
+	color:$color-ocean;
+}
+

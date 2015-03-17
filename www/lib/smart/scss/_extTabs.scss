@@ -1,0 +1,113 @@
+/* Allow parent element of tabs to define color, or just the tab itself */
+.tabs-primary > .tabs,
+.tabs.tabs-primary {
+  @include tab-style($tabs-primary-bg, $tabs-primary-border, $tabs-primary-text);
+  @include tab-badge-style($tabs-primary-text, $tabs-primary-bg);
+}
+.tabs-secondary > .tabs,
+.tabs.tabs-secondary {
+  @include tab-style($tabs-secondary-bg, $tabs-secondary-border, $tabs-secondary-text);
+  @include tab-badge-style($tabs-secondary-text, $tabs-secondary-bg);
+}
+.tabs-mint > .tabs,
+.tabs.tabs-mint {
+  @include tab-style($tabs-mint-bg, $tabs-mint-border, $tabs-mint-text);
+  @include tab-badge-style($tabs-mint-text, $tabs-mint-bg);
+}
+.tabs-ocean > .tabs,
+.tabs.tabs-ocean {
+  @include tab-style($tabs-ocean-bg, $tabs-ocean-border, $tabs-ocean-text);
+  @include tab-badge-style($tabs-ocean-text, $tabs-ocean-bg);
+}
+.tabs-grape > .tabs,
+.tabs.tabs-grape {
+  @include tab-style($tabs-grape-bg, $tabs-grape-border, $tabs-grape-text);
+  @include tab-badge-style($tabs-grape-text, $tabs-grape-bg);
+}
+.tabs-rose > .tabs,
+.tabs.tabs-rose {
+  @include tab-style($tabs-rose-bg, $tabs-rose-border, $tabs-rose-text);
+  @include tab-badge-style($tabs-rose-text, $tabs-rose-bg);
+}
+.tabs-chile > .tabs,
+.tabs.tabs-chile {
+  @include tab-style($tabs-chile-bg, $tabs-chile-border, $tabs-chile-text);
+  @include tab-badge-style($tabs-chile-text, $tabs-chile-bg);
+}
+.tabs-citrus > .tabs,
+.tabs.tabs-citrus {
+  @include tab-style($tabs-citrus-bg, $tabs-citrus-border, $tabs-citrus-text);
+  @include tab-badge-style($tabs-citrus-text, $tabs-citrus-bg);
+}
+.tabs-sunlight > .tabs,
+.tabs.tabs-sunlight {
+  @include tab-style($tabs-sunlight-bg, $tabs-sunlight-border, $tabs-sunlight-text);
+  @include tab-badge-style($tabs-sunlight-text, $tabs-sunlight-bg);
+}
+
+  @include tabs-striped('tabs-primary', $color-primary, $light);
+  @include tabs-striped('tabs-secondary', $color-secondary, $light);
+  @include tabs-striped('tabs-mint', $color-mint, $light);
+  @include tabs-striped('tabs-ocean', $color-ocean, $light);
+  @include tabs-striped('tabs-grape', $color-grape, $light);
+  @include tabs-striped('tabs-rose', $color-rose, $light);
+  @include tabs-striped('tabs-chile', $color-chile, $light);
+  @include tabs-striped('tabs-citrus', $color-citrus, $light);
+  @include tabs-striped('tabs-sunlight', $color-sunlight, $light);
+
+
+  @include tabs-background('tabs-background-primary', $color-primary);
+  @include tabs-background('tabs-background-secondary', $color-secondary);
+  @include tabs-background('tabs-background-mint', $color-mint);
+  @include tabs-background('tabs-background-ocean', $color-ocean);
+  @include tabs-background('tabs-background-grape', $color-grape);
+  @include tabs-background('tabs-background-rose', $color-rose);
+  @include tabs-background('tabs-background-chile',$color-chile);
+  @include tabs-background('tabs-background-citrus', $color-citrus);
+  @include tabs-background('tabs-background-sunlight', $color-sunlight);
+
+  @include tabs-color('tabs-color-primary', $color-primary);
+  @include tabs-color('tabs-color-secondary', $color-secondary);
+  @include tabs-color('tabs-color-mint', $color-mint);
+  @include tabs-color('tabs-color-ocean', $color-ocean);
+  @include tabs-color('tabs-color-grape', $color-grape);
+  @include tabs-color('tabs-color-rose', $color-rose);
+  @include tabs-color('tabs-color-chile',$color-chile);
+  @include tabs-color('tabs-color-citrus', $color-citrus);
+  @include tabs-color('tabs-color-sunlight', $color-sunlight);
+
+
+/* Active state for tab */
+.tab-item.tab-item-active,
+.tab-item.active,
+.tab-item.activated {
+  opacity: 1;
+
+  &.tab-item-primary {
+    color: $color-primary;
+  }
+  &.tab-item-secondary {
+    color: $color-secondary;
+  }
+  &.tab-item-mint {
+    color: $color-mint;
+  }
+  &.tab-item-ocean {
+    color: $color-ocean;
+  }
+  &.tab-item-grape {
+    color: $color-grape;
+  }
+  &.tab-item-rose {
+    color: $color-rose;
+  }
+  &.tab-item-chile {
+    color: $color-chile;
+  }
+  &.tab-item-citrus {
+    color: $color-citrus;
+  }
+  &.tab-item-sunlight {
+    color: $color-sunlight;
+  }
+}

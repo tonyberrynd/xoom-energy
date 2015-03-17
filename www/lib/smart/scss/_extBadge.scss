@@ -1,0 +1,62 @@
+
+/**
+ * Badges
+ * --------------------------------------------------
+ */
+
+.badge {
+  @include badge-style($badge-default-bg, $badge-default-text);
+  z-index: $z-index-badge;
+  display: inline-block;
+  padding: 3px 8px;
+  min-width: 10px;
+  border-radius: $badge-border-radius;
+  vertical-align: baseline;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: $badge-font-weight;
+  font-size: $badge-font-size;
+  line-height: $badge-line-height;
+
+  &:empty {
+    display: none;
+  }
+}
+
+//Be sure to override specificity of rule that 'badge color matches tab color by default'
+.tabs .tab-item .badge,
+.badge {
+  &.badge-primary {
+    @include badge-style($badge-primary-bg, $badge-primary-text);
+  }
+  &.badge-secondary {
+    @include badge-style($badge-secondary-bg, $badge-secondary-text);
+  }
+  &.badge-mint {
+    @include badge-style($badge-mint-bg, $badge-mint-text);
+  }
+  &.badge-ocean {
+    @include badge-style($badge-ocean-bg, $badge-ocean-text);
+  }
+  &.badge-grape {
+    @include badge-style($badge-grape-bg, $badge-grape-text);
+  }
+  &.badge-rose {
+    @include badge-style($badge-rose-bg, $badge-rose-text);
+  }
+  &.badge-chile {
+    @include badge-style($badge-chile-bg, $badge-chile-text);
+  }
+  &.badge-citrus {
+    @include badge-style($badge-citrus-bg, $badge-citrus-text);
+  }
+  &.badge-sunlight {
+    @include badge-style($badge-sunlight-bg, $badge-sunlight-text);
+  }
+}
+
+// Quick fix for labels/badges in buttons
+.button .badge {
+  position: relative;
+  top: -1px;
+}

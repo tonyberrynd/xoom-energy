@@ -1,0 +1,124 @@
+.page-gallery {
+		.gallery {
+			  padding: 0px;
+			  margin: 0px;
+			  margin-top:1px;
+			  list-style: none;
+			  -ms-box-orient: horizontal;
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: -ms-flexbox;
+			  display: -moz-flex;
+			  display: -webkit-flex;
+			  display: flex;
+			  -webkit-flex-wrap: wrap;
+  					 flex-wrap: wrap;
+  			.thumbnail {
+  			  flex-grow: 1;
+			  background: $color-darkGray;
+			  padding: 5px;
+			  width: 32.66%;
+			  max-width:33%;
+			  height:0px;
+			  padding-bottom:32%;
+			  margin: 1px;
+			  
+			  //replace thumbs with img css
+			  line-height: 100px;
+			  color: white;
+			  font-weight: bold;
+			  font-size: 2em;
+			  text-align: center;
+				@media (min-width: 768px) {		
+				  background: $color-darkGray;
+				  width: 24%;
+				  max-width:25%;
+				  padding-bottom:24%; 
+				  margin:2px;
+				  margin-left:5px;  
+				}
+				// @media (min-width: 768px) {
+				//   background: $color-darkGray;
+				//   width: 19.666%;
+				//   max-width:19.666%;
+				//   padding-bottom:19.666%; 
+				// }
+  			 } //thumbnail
+			}  //end gallery
+		} //end page-gallery
+
+.page-notes {
+		.note {
+			display:block;
+			width:100%;
+			background-color:$color-white;
+			padding:10px;
+			padding-top:20px;
+			padding-bottom:20px;
+			margin-top:10px;
+			max-height:140px;
+			h3 {
+				font-size:14px;
+				margin-left:8px;
+				line-height:1em;
+				
+			}
+			h5{
+				font-size:13px;
+				margin-left:8px;
+				margin-top:-5px;
+				
+			}
+			.content {
+				color:$color-type--secondary;
+				font-weight:400;
+				line-height: 1.6em;
+			}
+		}
+	}
+
+.page-form {
+		.form-container {
+			  padding: 0px;
+			  margin: 0px;
+			  margin-top:1px;
+			  list-style: none;
+			  -ms-box-orient: horizontal;
+			  display: -webkit-box;
+			  display: -moz-box;
+			  display: -ms-flexbox;
+			  display: -moz-flex;
+			  display: -webkit-flex;
+			  display: flex;
+			  -webkit-flex-wrap: wrap;
+  					 flex-wrap: wrap;
+			.item {
+			display:block;
+			border-width:0px;
+			padding:10px;
+
+			flex-wrap: 1;
+			  
+			  width: 100%;
+			  margin: 1px;
+			@media (min-width: 640px) {		
+				  width:49%;  
+				  margin-left:5px;
+				}
+			}
+		}
+		
+		.item-input-wrapper {
+			background: #fff;
+			height:32px;
+		}
+
+	}
+
+.page-map {
+		.map-container {
+			  padding: 0px;
+			  margin: 0px;
+			  margin-top:1px;
+		}
+	}
